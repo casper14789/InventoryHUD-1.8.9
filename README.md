@@ -6,7 +6,7 @@
 
 ## 📦 Features
 
-- Display your 27-slot main inventory (not armor or hotbar)
+- Display your 36-slot main inventory (not armor or hotbar)
 - Adjustable HUD position and scale
 - Toggle HUD on/off with a keybind (`G` by default)
 - In-game GUI configuration (`K` key)
