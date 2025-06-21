@@ -1,54 +1,71 @@
 # InventoryHUD - Minecraft Forge Mod (1.8.9)
 
-🎒 A simple Forge mod for Minecraft 1.8.9 that displays your main inventory as a HUD overlay on the screen.
+🎒 A customizable HUD mod for Minecraft 1.8.9 that displays your main inventory directly on screen — perfect for PvP, Skyblock, and any situation where you want to see your backpack at all times.
 
 ---
 
-## 📦 Features
+## ✨ Features
 
-- Display your 36-slot main inventory (not armor or hotbar)
-- Adjustable HUD position and scale
-- Toggle HUD on/off with a keybind (`G` by default)
-- In-game GUI configuration (`K` key)
-- Optional background box and borders
-- Settings saved between sessions
+- 📦 **Shows your main inventory** (36 slots) as an on-screen HUD
+- 🖱️ **Draggable interface** — reposition the HUD by dragging it
+- 🎛️ **Settings GUI** — adjust position and scale with sliders
+- 🗄️ **Saves position and size** between sessions
+- ⌨️ **Customizable keybinds**:
+  - `H`: Toggle HUD visibility
+- 🎨 Minimal transparent design with borders
+- ☁️ Lightweight and optimized for 1.8.9 Forge environments
 
 ---
 
-## 🛠 Installation
+## 🔧 Installation
 
-1. Make sure you have [Minecraft Forge 1.8.9](https://files.minecraftforge.net/) installed
-2. Download the `.jar` file from [Releases](https://github.com/your-username/InventoryHUD-1.8.9/releases)
+1. Install [Minecraft Forge 1.8.9](https://files.minecraftforge.net/)
+2. Download the latest `InventoryHUD-1.8.9.jar` from [Releases](https://github.com/casper14789/InventoryHUD-1.8.9/releases)
 3. Drop the `.jar` file into your `.minecraft/mods` folder
-4. Launch Minecraft with Forge 1.8.9
+4. Launch Minecraft with the Forge 1.8.9 profile
 
 ---
 
 ## 🎮 Keybinds
 
-| Key | Function                      |
-|-----|-------------------------------|
-| H   | Toggle Inventory HUD          |
+| Key | Action                     |
+|-----|----------------------------|
+| H   | Toggle Inventory HUD       |
 
-You can change these in the Minecraft Controls settings.
-
----
-
-## ❗ Disclaimer
-
-This mod is designed for personal use or use on **non-restrictive servers**.  
-**Do not use automated versions or macros on Hypixel or similar servers**, as that violates server rules.
+Keybinds can be changed in `Options > Controls > InventoryHUD`
 
 ---
 
-## 📁 License
+## 🖼️ Screenshots
 
-MIT License - Free to use and modify.  
-If you make changes or improvements, consider sharing via pull request!
+![image](https://github.com/user-attachments/assets/5ed650dc-6aec-4972-9445-008db7d9f8fa)
+
 
 ---
 
-## 📷 Screenshots
+## 🛡️ Server Use Disclaimer
 
-*(You can add screenshots here if you have any)*
+This mod is **client-side only** and does **not perform automation or send server-side commands**.  
+Still, always check if HUD overlays are allowed on your server (e.g. Hypixel).
 
+---
+
+## 📁 File Structure
+
+- `BackpackHUD.java`: HUD renderer and keybind handler
+- `HUDConfigGui.java`: In-game GUI to adjust position/scale
+- `HUDSettings.java`: Handles saving/loading HUD config
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and share.  
+Pull requests are welcome!
+
+---
+
+## ❤️ Credits
+
+Developed by Casper14789
+Special thanks to Minecraft Forge and the open-source modding community.
