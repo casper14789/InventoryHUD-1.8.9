@@ -1,0 +1,39 @@
+# Java build
+*.class
+
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Minecraft Forge specific
+run/
+eclipse/
+bin/
+jars/
+
+# Environment
+.env
+*.swp
+
+# Backup files
+*~
+*.bak
+*.tmp
